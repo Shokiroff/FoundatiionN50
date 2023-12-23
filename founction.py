@@ -16,10 +16,17 @@ def sonlar(st:str):
 def kvadrat(ls):
     ls,lambda x:x**2
     print(ls)
-    
+def isimlar_royxati(dic:dict):
+    ls=[]
+    for x in dic:
+        x=x.split(":")[0]
+        ls.append(x)
+    print(ls)
 ekub(12,28)
 ls=[("diyor",12),("siroj",48),("baxtiyor",24),("abbos",22),("johongir",23),("og'abek",19)]
 royxat(ls)
 sonlar(st="adss123sf4eddf5dds4w342wd0c")
 ls1=[12,343,21,4,65,89,0,21]
 kvadrat(ls)
+dic={"diyor":12,"siroj":48,"baxtiyor":24,"abbos":22,"johongir":23,"og'abek":19}
+isimlar_royxati(dic)
